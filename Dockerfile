@@ -4,7 +4,7 @@ FROM dasbastard/dirty:latest
 # Docker
 # Clone repo and prepare working directory
 # Docker
-RUN git clone 'https://github.com/CrePavan/MANAGER-KING-GROUP-SECURER.git' /root/managerking
+RUN git clone 'https://github.com/CrePavan/MANAGER-KING-GROUP-SECURER.git' /root/MANAGER-KING-GROUP-SECURER
 RUN mkdir /root/MANAGER-KING-GROUP-SECURER/bin/
 WORKDIR /root/MANAGER-KING-GROUP-SECURER/
 # Try Upgrade some requirements
