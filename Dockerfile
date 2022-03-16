@@ -4,9 +4,9 @@ FROM dasbastard/dirty:latest
 # Docker
 # Clone repo and prepare working directory
 # Docker
-RUN git clone 'https://github.com/CrePavan/MANAGER-KING-GROUP-SECURER.git' /root/MANAGER-KING-GROUP-SECURER
-RUN mkdir /root/MANAGER-KING-GROUP-SECURER/bin/
-WORKDIR /root/MANAGER-KING-GROUP-SECURER/
+RUN git clone 'https://github.com/CrePavan/Groupmanager.git' /root/Groupmanager
+RUN mkdir /root/Groupmanager/bin/
+WORKDIR /root/Groupmanager/
 # Try Upgrade some requirements
 # RUN pip3 install -r requirements.txt --upgrade
 
